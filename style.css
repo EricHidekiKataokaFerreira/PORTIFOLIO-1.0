@@ -685,7 +685,7 @@ header {
 .row5 {
   width: 40%;
   height: 100%;
-  margin-left: 20%;
+  margin-left: 10%;
   margin-right: 30%;
   filter: grayscale(50%);
 }
@@ -1455,6 +1455,26 @@ footer {
   .card-contact p {
     margin-top: 0px;
     font-size: 0.8em;
+  }
+}
+
+@media (max-height: 900px) {
+  .social-links {
+    bottom: 460px;
+  }
+
+  .linha-v2 {
+    width: 1px;
+    height: 60vh;
+    background-color: white;
+    position: absolute;
+    top: 400px;
+    right: 122px;
+    transform: translate(-50%, -50%);
+  }
+
+  #about {
+    height: 150vh;
   }
 }
 
