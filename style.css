@@ -1478,6 +1478,44 @@ footer {
   }
 }
 
+@media (max-height: 768px) {
+  .social-links {
+    bottom: 460px;
+    position: absolute;
+    left: -87px;
+    bottom: 350px;
+  }
+
+  .linha-v2 {
+    width: 1px;
+    height: 60vh;
+    background-color: white;
+    position: absolute;
+    top: 325px;
+    right: 122px;
+    transform: translate(-50%, -50%);
+  }
+
+  .social-links li {
+    display: inline-block;
+    margin-right: 4em;
+  }
+
+  .social-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 0.15em;
+    transition: all 0.2s linear;
+  }
+
+  #about {
+    height: 170vh;
+  }
+}
+
 /* ======================Keyframes==================== */
 
 @keyframes loader {
